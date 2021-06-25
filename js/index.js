@@ -23,7 +23,7 @@ function initMap() {
 
 function searchStores() {
   var foundStores = [];
-  var zipCode = document.getElementById('search-container').value;
+  var zipCode = document.getElementById('zip-code-input').value;
   if(zipCode){
     for (var store of stores){
       var postal = store['address']['postalCode'].substring(0,5);
