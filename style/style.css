@@ -10,16 +10,6 @@ tibody {
     height: 100%;
 }
 
-.title {
-    position: absolute;
-    z-index: 100;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    text-transform: uppercase;
-    top: 2px;
-    left: 2px;
-}
 
 .search-container{
     border-radius: 30px;
