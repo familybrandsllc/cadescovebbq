@@ -3,7 +3,7 @@ let map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 2,
-    center: new google.maps.LatLng(2.8, -187.3),
+    center: new google.maps.LatLng(35.904038, -83.956548),
     mapTypeId: "terrain",
   });
   // Create a <script> tag and set the USGS URL as the source.
