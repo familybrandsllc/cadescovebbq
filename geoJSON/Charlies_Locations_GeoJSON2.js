@@ -1,4 +1,4 @@
-eqfeed_callback({
+let stores = [{
    "type": "FeatureCollection",
    "features": [
   {
@@ -17,4 +17,4 @@ eqfeed_callback({
   }
 ]
 }
-);
+             ]
